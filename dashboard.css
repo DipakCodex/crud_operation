@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #4b4a20;
+    color: #393b84;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+}
+ul li a{
+  color:white;
+  text-decoration: none;
+}
+#dipak{
+  color:white;
+}
+
+.sidebar .profile {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #223457;
+}
+
+.sidebar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.sidebar h3 {
+    margin: 10px 0 5px;
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li {
+  padding: 14px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #1a2d4e;
+}
+.sidebar ul li i {
+  margin-right: 10px;
+}
+.sidebar ul li:hover {
+  background: #949eaf;
+}
+/* Header */
+.header {
+  margin-left: 250px;
+  background: #154490;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Dashboard content */
+.content {
+  margin-left: 250px;
+  padding: 30px;
+}
+
+
+
+/* ===== ADMIN DARK MODE ===== */
+body.admin {
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+body.admin .sidebar {
+    background-color: #020617;
+}
+
+body.admin .header {
+    background-color: #020617;
+    color: white;
+}
+
+body.admin table {
+    background-color: #020617;
+    color: #e5e7eb;
+}
+
+body.admin th {
+    background-color: #1e293b;
+}
+
+body.admin td {
+    background-color: #020617;
+}
+
+body.admin a {
+    color: #38bdf8;
+}
+
+/* Buttons */
+body.admin .update {
+    background-color: #2563eb;
+}
+
+body.admin .delete {
+    background-color: #dc2626;
+}
+
+
+
+/* ===== USER LIGHT MODE ===== */
+/* body.user {
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+body.user .sidebar {
+    background-color: #ffffff;
+}
+
+body.user .header {
+    background-color: #e5e7eb;
+} */
+
+
+
+.operation{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
